@@ -31,6 +31,11 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'chun-yang/auto-pairs'
 
 Plugin 'scrooloose/nerdtree'
+Plugin 'xuyuanp/git-nerdtree'
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plugin 'ryanoasis/vim-devicons'
+"Plugin 'ryanoasis/vim-devicons'
+
 Plugin 'yggdroot/indentline'
 Plugin 'ericbn/vim-relativize'
 
@@ -101,4 +106,17 @@ nnoremap <C-f> :NERDTreeFind<CR>
 "let g:indentLine_concealcursor = 'inc'
 "let g:indentLine_conceallevel = 2
 "let g:indentLine_setConceal = 0
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
 
+let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
+let g:WebDevIconsDisableDefaultFileSymbolColorFromNERDTreeFile = 1
+let g:NERDTreeDisableFileExtensionHighlight = 1
+let g:NERDTreeDisableExactMatchHighlight = 1
+let g:NERDTreeDisablePatternMatchHighlight = 1
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
